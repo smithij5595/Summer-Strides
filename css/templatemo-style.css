@@ -249,15 +249,11 @@ body {
   width: 100%;
 }
 
-.about-container .left-content p em {
-font-weight: 500;
-}
-
-.about-container .left-content .primary-button {
+.about-container .primary-button {
 margin-top: 30px;
 }
 
-.about-container .left-content .primary-button a {
+.about-container .primary-button a {
 font-size: 11px;
 text-transform: uppercase;
 font-weight: 700;
