@@ -228,7 +228,7 @@ body {
 }
 
 .about-container .under-line {
-  width: 60px;
+  width: 35%;
   height: 3px;
   background-color: #121212;
   margin: 15px auto 20px auto;
@@ -260,6 +260,73 @@ font-weight: 700;
 color: #121212;
 border: 1px solid #343434;
 padding: 11px 14px;
+}
+
+/*
+========================================
+----------- ABOUT STYLE -----------------
+========================================
+*/
+
+.info-container {
+  text-align: center;
+  background-color: #fff;
+  margin-top: 24%;
+}
+
+.info-container h2 {
+  font-size: 24px;
+  letter-spacing: 0.5px;
+  color: #121212;
+  text-transform: uppercase;
+  margin: 40px;
+  margin-bottom: 0px;
+  font-weight: 900;
+}
+
+.info-container h2 em {
+  font-style: normal;
+  color: #f78b26;
+}
+
+.info-container .under-line {
+  width: 35%;
+  height: 3px;
+  background-color: #121212;
+  margin: 15px auto 20px auto;
+}
+
+.info-container p {
+  font-size: 18px;
+  color: #343434;
+  margin: 15px 35px 30px 35px;
+}
+
+.info-container p em {
+  font-weight: 500;
+  font-style: normal;
+}
+
+.info-container img {
+  width: 100%;
+}
+
+.info-container .primary-button {
+margin-top: 30px;
+}
+
+.info-container .primary-button a {
+font-size: 11px;
+text-transform: uppercase;
+font-weight: 700;
+color: #121212;
+border: 1px solid #343434;
+padding: 11px 14px;
+}
+
+.info-box {
+	background-color: #000000;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 /*
