@@ -312,7 +312,7 @@ padding: 11px 14px;
 }
 
 .info-container .primary-button {
-margin-top: 30px;
+margin: 30px;
 }
 
 .info-container .primary-button a {
@@ -325,8 +325,11 @@ padding: 11px 14px;
 }
 
 .info-box {
-	background-color: #000000;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	background-color: #995ba4;
+    width: 60%;
+    margin: 0 auto;
+    padding: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 /*
