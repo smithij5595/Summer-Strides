@@ -152,7 +152,7 @@ body {
 
   .home-container .left-content h2 em {
     font-style: normal;
-    color: #f78b26;
+    color: #f09033;
   }
 
   .home-container .left-content p {
@@ -184,8 +184,8 @@ body {
     -o-transition: all 0.2s linear;
     -webkit-transition: all 0.2s linear;
     transition: all 0.2s linear;
-    border-color: #f78b26;
-    color: #f78b26;
+    border-color: #f09033;
+    color: #f09033;
     text-decoration: none;
   }
 
@@ -224,7 +224,7 @@ body {
 
 .about-container h2 em {
   font-style: normal;
-  color: #f78b26;
+  color: #f09033;
 }
 
 .about-container .under-line {
@@ -286,7 +286,7 @@ padding: 11px 14px;
 
 .info-container h2 em {
   font-style: normal;
-  color: #f78b26;
+  color: #f09033;
 }
 
 .info-container h3 {
@@ -433,7 +433,7 @@ padding: 11px 14px;
   display: inline-block;
   padding: 15px 30px;
   color: #fff;
-  background-color: #f78b26;
+  background-color: #f09033;
 }
 
 .more-info {
@@ -466,7 +466,7 @@ footer p {
 
 footer p em {
   font-style: normal;
-  color: #f78b26;
+  color: #f09033;
 }
 
 
@@ -1002,7 +1002,7 @@ body.lb-disable-scrolling {
 .owl-theme .owl-dots .active span {
   width: 10px;
   height: 10px;
-  background: #f78b26;
+  background: #f09033;
   display: block;
   -webkit-backface-visibility: visible;
   transition: opacity .2s ease;
