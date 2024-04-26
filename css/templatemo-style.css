@@ -226,6 +226,10 @@ body {
 	border-bottom: 0;
   }
   
+  .home-container td {
+	padding: 10px;
+  }
+  
   .home-container td:first-child {
 	width: 35%;
   }
