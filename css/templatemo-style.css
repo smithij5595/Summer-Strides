@@ -128,6 +128,13 @@ body {
   background-color: #fff;
  }
 
+ .home-container .content {
+    margin: 25px;
+	padding: 25px;
+	background-color: #995ba4;
+	color: white;
+ }
+
  .home-container .left-content {
     padding-top: 25%;
     padding-left: 35px;
@@ -135,10 +142,19 @@ body {
 
  .home-container .left-content .left-line {
     width: 3px;
-    height: 74px;
+    height: 100px;
     background-color: #121212;
     float: left;
     margin-right: 15px;
+ }
+
+ .home-container .left-content h1 {
+    font-size: 48px;
+    letter-spacing: 0.5px;
+    color: #121212;
+    text-transform: uppercase;
+    margin: 0px;
+    font-weight: 900;
  }
 
  .home-container .left-content h2 {
@@ -198,7 +214,21 @@ body {
     width: 100%;
   }
 
-
+  .home-container table {
+	width: 100%;
+  }
+  
+  .home-container tr {
+	border-bottom: 2px solid #fff;
+  }
+  
+  .home-container tr:last-child {
+	border-bottom: 0;
+  }
+  
+  .home-container td:first-child {
+	width: 35%;
+  }
 
 /*
 ========================================
