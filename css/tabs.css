@@ -70,11 +70,18 @@
 
 .VerticalTab.tabs_ver_6 .resp-tabs-list .resp-tab-active {
 	margin: 10px 0px!important;
-	color: #f78b26;
+	color: #f09033;
 	border: none!important;
 }
+
+.VerticalTab.tabs_ver_6 .resp-tabs-list .emphasis {
+	margin: 10px 0px!important;
+	color: #005097;
+	border: 3px solid #005097!important;
+}
+
 .VerticalTab.tabs_ver_6 .resp-tabs-list li:hover {
-	color: #f78b26;
+	color: #f09033;
     -moz-transition: all 0.2s linear;
     -o-transition: all 0.2s linear;
     -webkit-transition: all 0.2s linear;
@@ -135,10 +142,17 @@ h2.resp-tab-active {
 	margin-bottom: 0px;
 	border: none!important;
 	padding: 30px 15px!important;
-	background: #f78b26!important;
+	background: #f09033!important;
 }
 h2.resp-accordion:first-child {
     border-top: 1px solid rgba(255, 255, 255, 0.1) !important;
+}
+
+h2.resp-accordion .tabs-text {
+    position: relative;
+    top: -3px;
+    left: 0px;
+	font-size: 14px;
 }
 
 h2.resp-accordion .tabs-text {

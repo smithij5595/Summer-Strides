@@ -125,6 +125,7 @@ body {
  }
  .home-container {
   margin-top: 28.5%;
+  margin-bottom: 5%;
   background-color: #fff;
  }
 
@@ -460,6 +461,51 @@ padding: 11px 14px;
 }
 
 .contact-form h2 {
+  margin-top: -50px;
+  margin-bottom: 30px;
+  font-size: 24px;
+  font-weight: 900;
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 15px 30px;
+  color: #fff;
+  background-color: #f09033;
+}
+
+.more-info {
+  padding: 60px 30px 0px 0px;
+}
+
+.more-info p em {
+  font-weight: 600;
+  font-style: normal;
+}
+
+/*
+========================================
+----------- REGISTER STYLE ------------
+========================================
+*/
+
+.register-container {
+  background-color: #fff;
+  margin-top: 29.5%;
+}
+
+.register-form {
+  padding: 0px 30px 0px 30px;
+  text-align: center;
+}
+
+.register-form iframe {
+  width:100%;
+  height:400px;
+  margin-bottom:20px;
+  border:none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.register-form h2 {
   margin-top: -50px;
   margin-bottom: 30px;
   font-size: 24px;
