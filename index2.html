@@ -12,10 +12,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
 
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
-        <link rel="stylesheet" href="css/animate.min.css">
-        <link rel="stylesheet" href="css/templatemo-style.css">
+       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/styles.css">
 
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
 		<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
@@ -39,14 +37,18 @@
     <section class="section-full image-bg">
 
 		<div class="container">
-			<div class="row">
+			<div class="row main-row">
 				<div class="col-md-3">
-					<a href="/"><div class="responsive-logo"><img src="img/logo.png"></div></a>
-					<div id="menu">
+					<div id="sidebar">
 					</div>
 					<script>
 						$(function(){
-						  $("#menu").load("menu.html");
+						  $("#sidebar").load("sidebar.html");
+						});
+					</script>
+					<script>
+						$(function(){
+						  $("#home").addClass("active");
 						});
 					</script>
 				</div>
@@ -59,9 +61,6 @@
                           <h1>Summer Strides Camp</h1>
                           <p>The summer running program for kids.</p>
 						  <p>Run fun. Build community. Find your stride.</p>
-                          <!--<div class="primary-button d-none">
-                            <a href="#">Discover More</a>
-                          </div>-->
                         </div>
                       </div>
                       <div class="col-md-6">
@@ -85,7 +84,7 @@
 											<td>Registration Opened</td>
 										</tr>
 										<tr>
-											<td><span style="text-decoration: line-through;">July 5th</span>June 23rd</td>
+											<td><span style="text-decoration: line-through;">July 5th</span> June 23rd</td>
 											<td>Registration Closes</td>
 										</tr>
 										<tr>
@@ -93,7 +92,7 @@
 											<td>First Session of Camp!</td>
 										</tr>
 										<tr>
-											<td colspan="2">Sessions every Monday, Tuesday, Thursday, and Friday</td>
+											<td colspan="2" style="text-align: center;">Sessions every Monday, Tuesday, Thursday, and Friday</td>
 										</tr>
 										<tr>
 											<td>July 26th, 5:30pm</td>
