@@ -245,16 +245,6 @@ body {
 	margin-bottom: 25px;
   }
 
-  .home-container .left-content .primary-button a:hover {
-    -moz-transition: all 0.2s linear;
-    -o-transition: all 0.2s linear;
-    -webkit-transition: all 0.2s linear;
-    transition: all 0.2s linear;
-    border-color: #f09033;
-    color: #f09033;
-    text-decoration: none;
-  }
-
    .home-container .right-content {
       margin-bottom: -1px;
    }
@@ -332,19 +322,6 @@ body {
   width: 100%;
 }
 
-.about-container .primary-button {
-margin-top: 30px;
-}
-
-.about-container .primary-button a {
-font-size: 11px;
-text-transform: uppercase;
-font-weight: 700;
-color: #121212;
-border: 1px solid #343434;
-padding: 11px 14px;
-}
-
 /*
 ========================================
 ----------- DETAILS STYLE -----------------
@@ -393,18 +370,6 @@ padding: 11px 14px;
   width: 100%;
 }
 
-.details-container .primary-button {
-margin-top: 30px;
-}
-
-.details-container a.primary-button {
-font-size: 11px;
-text-transform: uppercase;
-font-weight: 700;
-color: #121212;
-border: 1px solid #343434;
-padding: 11px 14px;
-}
 
 /*
 ========================================
@@ -458,19 +423,6 @@ padding: 11px 14px;
 
 .info-container img {
   width: 100%;
-}
-
-.info-container .primary-button {
-margin: 30px;
-}
-
-.info-container a.primary-button {
-font-size: 11px;
-text-transform: uppercase;
-font-weight: 700;
-color: #121212;
-border: 1px solid #343434;
-padding: 11px 14px;
 }
 
 .info-box {
