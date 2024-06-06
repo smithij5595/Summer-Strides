@@ -18,7 +18,7 @@
         <link rel="stylesheet" href="css/templatemo-style.css">
 
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
-
+		<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
         <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
     </head>
     <body>
@@ -41,9 +41,14 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-3">
-					<a href="/"><div class="responsive-logo hidden-lg hidden-md hidden-sm"><img src="img/logo.png"></div></a>
+					<a href="/"><div class="responsive-logo"><img src="img/logo.png"></div></a>
 					<div id="menu">
 					</div>
+					<script>
+						$(function(){
+						  $("#menu").load("menu.html");
+						});
+					</script>
 				</div>
 				<div class="col-md-9">
 					<div class="contact-container">
