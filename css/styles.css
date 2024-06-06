@@ -25,7 +25,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     max-width: 100%;
-    height: 100%;
+    min-height: calc(100vh - 53px);
 	display: flex;
 }
 
@@ -33,6 +33,28 @@ body {
 	margin-top: 10%;
 	margin-bottom: 5%;
 }
+
+.primary-button {
+    font-size: 16px;
+    text-transform: uppercase;
+	text-decoration: none;
+    font-weight: 900;
+    color: #fff;
+    background-color: #f09033;
+    padding: 20px;
+	margin: 10px;
+  }
+  
+  .secondary-button {
+    font-size: 16px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 900;
+    color: #fff;
+    background-color: #005097;
+    padding: 20px;
+    margin: 10px;
+  }
 
 /*
 ===============================================
@@ -215,17 +237,12 @@ body {
     font-weight: 500;
   }
 
-  .home-container .left-content .primary-button {
-    margin-top: 30px;
-  }
-
-  .home-container .left-content .primary-button a {
-    font-size: 11px;
-    text-transform: uppercase;
-    font-weight: 700;
-    color: #121212;
-    border: 1px solid #343434;
-    padding: 11px 14px;
+  .home-container .button-box {
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	margin-top: 25px;
+	margin-bottom: 25px;
   }
 
   .home-container .left-content .primary-button a:hover {
@@ -330,7 +347,7 @@ padding: 11px 14px;
 
 /*
 ========================================
------------ ABOUT STYLE -----------------
+----------- DETAILS STYLE -----------------
 ========================================
 */
 
@@ -380,7 +397,7 @@ padding: 11px 14px;
 margin-top: 30px;
 }
 
-.details-container .primary-button a {
+.details-container a.primary-button {
 font-size: 11px;
 text-transform: uppercase;
 font-weight: 700;
@@ -447,7 +464,7 @@ padding: 11px 14px;
 margin: 30px;
 }
 
-.info-container .primary-button a {
+.info-container a.primary-button {
 font-size: 11px;
 text-transform: uppercase;
 font-weight: 700;
@@ -545,7 +562,7 @@ padding: 11px 14px;
 
 .contact-form iframe {
   width:100%;
-  height:400px;
+  height:600px;
   margin-bottom:20px;
   border:none;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -589,7 +606,7 @@ padding: 11px 14px;
 
 .register-form iframe {
   width:100%;
-  height:400px;
+  height:600px;
   margin-bottom:20px;
   border:none;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
