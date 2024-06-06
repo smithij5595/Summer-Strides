@@ -30,7 +30,7 @@ body {
 }
 
 .main-row {
-	margin-top: 5%;
+	margin-top: 10%;
 	margin-bottom: 5%;
 }
 
@@ -320,6 +320,67 @@ margin-top: 30px;
 }
 
 .about-container .primary-button a {
+font-size: 11px;
+text-transform: uppercase;
+font-weight: 700;
+color: #121212;
+border: 1px solid #343434;
+padding: 11px 14px;
+}
+
+/*
+========================================
+----------- ABOUT STYLE -----------------
+========================================
+*/
+
+.details-container {
+  text-align: center;
+  background-color: #fff;
+}
+
+.details-container h2 {
+  font-size: 24px;
+  letter-spacing: 0.5px;
+  color: #121212;
+  text-transform: uppercase;
+  margin: 40px;
+  margin-bottom: 0px;
+  font-weight: 900;
+}
+
+.details-container h2 em {
+  font-style: normal;
+  color: #f09033;
+}
+
+.details-container .under-line {
+  width: 35%;
+  height: 3px;
+  background-color: #121212;
+  margin: 15px auto 20px auto;
+}
+
+.details-container p {
+  font-size: 14px;
+  color: #343434;
+  margin: 15px 35px 30px 35px;
+}
+
+.details-container p em {
+  font-weight: 500;
+  font-style: normal;
+}
+
+.details-container img {
+  width: 100%;
+}
+
+.details-container .primary-button {
+margin-top: 30px;
+}
+
+.details-container .primary-button a {
 font-size: 11px;
 text-transform: uppercase;
 font-weight: 700;
