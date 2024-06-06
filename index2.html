@@ -43,10 +43,7 @@
 					</div>
 					<script>
 						$(function(){
-						  $("#sidebar").load("sidebar.html");
-						});
-						$(function(){
-						  $("#home").addClass("active");
+						  $("#sidebar").load("sidebar.html", function() {$("#home").addClass("active");});
 						});
 					</script>
 				</div>
