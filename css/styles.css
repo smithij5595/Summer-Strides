@@ -115,13 +115,13 @@ body {
  }
 
  .home-container .left-content {
-    padding-top: 25%;
+    padding-top: 10%;
     padding-left: 35px;
  }
 
  .home-container .left-content .left-line {
     width: 3px;
-    height: 100px;
+    height: 180px;
     background-color: #121212;
     float: left;
     margin-right: 15px;
